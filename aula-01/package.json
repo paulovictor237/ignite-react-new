@@ -5,7 +5,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start-no-browser": "BROWSER=none vite",
+    "start-no-browser2": "BROWSER=none react-scripts start",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "react": "^18.0.0",
